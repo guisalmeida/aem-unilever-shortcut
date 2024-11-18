@@ -1,0 +1,8 @@
+{
+    "envs": {
+        "prod": "https://author-p34054-e123602.adobeaemcloud.com",
+        "stage": "https://author-p34054-e123553.adobeaemcloud.com",
+        "int": "https://author-p34054-e124157.adobeaemcloud.com",
+        "dev02": "https://author-p34054-e124155.adobeaemcloud.com"
+    }
+}
