@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Button from './Button';
 
 interface HomeProps {
   onSubmit: (locale: string, language: string) => void;
@@ -46,12 +47,14 @@ export function Form({ onSubmit, initialLocale, initialLanguage }: HomeProps) {
           className="w-full px-2 py-1 border rounded"
         />
       </div>
-      <button
+
+      <Button
+        is="coral-button"
+        icon="save"
         type="submit"
-        className="w-full px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
       >
         Save
-      </button>
+      </Button>
     </form>
   );
 }

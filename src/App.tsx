@@ -33,7 +33,7 @@ export function App() {
     <Router>
       <div className="w-80 p-4 bg-gray-100">
         <h2 className="text-xl font-bold mb-4">AEM Shortcut</h2>
-        <nav className="mb-4">
+        <nav is='coral-anchorlist' className="mb-4">
           <ul className="flex space-x-2">
             <li>
               <Link
@@ -41,6 +41,7 @@ export function App() {
                 className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600"
                 target="_blank"
                 rel="noopener noreferrer"
+                is="coral-anchorlist-item"
               >
                 Home
               </Link>
@@ -51,6 +52,7 @@ export function App() {
                 className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600"
                 target="_blank"
                 rel="noopener noreferrer"
+                is="coral-anchorlist-item"
               >
                 Configuration
               </Link>
@@ -61,6 +63,7 @@ export function App() {
                 className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600"
                 target="_blank"
                 rel="noopener noreferrer"
+                is="coral-anchorlist-item"
               >
                 Renditions
               </Link>
